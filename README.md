@@ -15,18 +15,17 @@ Get a complete, fact-based Equity Research Report that includes:
 6. Price chart
 7. Investment recommendation
 
-+----------------+      +------------------+      +------------------+
-|  Stock Agent   | ---> |  Analyst Agent   | ---> |  Valuation Agent |
-+----------------+      +------------------+      +------------------+
+ Stock Agent   --->   Analyst Agent    --->   Valuation Agent 
+
         |                        |                        |
         v                        v                        v
    Market Data             Text Summarization         Fair Value
         \________________________|_________________________/
                                  |
                                  v
-                   +-----------------------------+
-                   |    Report Generator Agent   |
-                   +-----------------------------+
+                   
+                    Report Text Generator  
+                
                                  |
                                  v
                             PDF Report
